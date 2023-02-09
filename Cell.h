@@ -1,7 +1,7 @@
-#include <string>
-#include "Date.h"
 #ifndef CELL_H
 #define CELL_H
+#include <string>
+#include "Date.h"
 
 class Cell {
 public: 

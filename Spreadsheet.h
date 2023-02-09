@@ -1,7 +1,7 @@
-#include <string>
-#include "Cell.h"
 #ifndef SPREADSHEET_H
 #define SPREADSHEET_H
+#include <string>
+#include "Cell.h"
 
 
 class Spreadsheet {

@@ -6,7 +6,8 @@ Date::Date(int y, int m, int d){
     this->month = m;
     this->year = y;
 }
-static Date from_string(const std::string& date_string) {
+
+Date Date::from_string(const std::string& date_string) {
     std::istringstream stream(date_string);
     char delimiter;
     int day, month, year;

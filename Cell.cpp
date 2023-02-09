@@ -25,6 +25,7 @@ double Cell::toDouble() const{
 
 Date Cell::toDate() {
     Date result = Date::from_string(m_value);
+    return result;
 }
 
 void Cell::reset() {

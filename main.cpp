@@ -11,6 +11,7 @@ int main() {
    obj.toDate();
    Date date(11, 11, 2001);
    obj.setValue("19.11.2001");
+   std::cout << obj.getValue();
 
 }
 

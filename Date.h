@@ -6,7 +6,7 @@
 class Date {
 public:
         Date(int y, int m, int d);
-        ~Date();
+        ~Date()  = default;
         int getYear() const;
         int getMonth() const;
         int getDay() const;
